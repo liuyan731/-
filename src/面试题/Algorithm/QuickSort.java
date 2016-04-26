@@ -5,7 +5,7 @@
  *      Author: liuyan
  */
 
-package 面试题.interview;
+package 面试题.Algorithm;
 
 public class QuickSort {
 	public static void main(String[] args) {

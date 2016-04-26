@@ -5,7 +5,7 @@
  *      Author: liuyan
  */
 
-package 面试题.interview;
+package 面试题.Algorithm;
 
 class Singleton {	//恶汉式
 	private static final Singleton singleton = new Singleton(); //在类加载的时候就创建了对象

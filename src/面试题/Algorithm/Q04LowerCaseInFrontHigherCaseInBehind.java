@@ -6,7 +6,7 @@
  *      Author: liuyan
  */
 
-package 面试题.interview;
+package 面试题.Algorithm;
 
 public class Q04LowerCaseInFrontHigherCaseInBehind {
 	public static void main(String[] args) {
