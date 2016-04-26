@@ -17,7 +17,7 @@ public class Q01MergeTwoSortedList {
 			ListNode ret;
 			if(l1.val < l2.val) {
 				ret= l1;
-				ret.next = merge(l1.next, l2);
+				ret.next = merge(l1.next, l2); 
 			} else {
 				ret = l2;
 				ret.next = merge(l1, l2.next);
