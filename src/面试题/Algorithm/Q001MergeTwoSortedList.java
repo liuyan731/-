@@ -7,7 +7,7 @@
 
 package √Ê ‘Ã‚.Algorithm;
 
-public class Q01MergeTwoSortedList {
+public class Q001MergeTwoSortedList {
 	public ListNode merge(ListNode l1, ListNode l2) {
 		if(l1 == null) {
 			return l2;
@@ -23,14 +23,6 @@ public class Q01MergeTwoSortedList {
 				ret.next = merge(l1, l2.next);
 			}
 			return ret;
-		}
-	}
-	
-	class ListNode {
-		int val;
-		ListNode next;
-		public ListNode(int x) {
-			this.val = x;
 		}
 	}
 }

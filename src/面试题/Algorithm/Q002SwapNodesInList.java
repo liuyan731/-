@@ -7,7 +7,7 @@
 
 package √Ê ‘Ã‚.Algorithm;
 
-public class Q02SwapNodesInList {
+public class Q002SwapNodesInList {
 	public ListNode swapNodes(ListNode node) {
 		if(node == null || node.next == null) {
 			return node;
@@ -17,14 +17,6 @@ public class Q02SwapNodesInList {
 			ret.next = node;
 			node.next = swapNodes(tmp);
 			return ret;
-		}
-	}
-	
-	class ListNode {
-		int val;
-		ListNode next;
-		public ListNode(int x) {
-			this.val = x;
 		}
 	}
 }

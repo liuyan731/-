@@ -19,9 +19,3 @@ public class PathIsExistInBinaryTree {
 		}
 	}
 }
-
-class TreeNode {
-	int value;
-	TreeNode left;
-	TreeNode right;
-}

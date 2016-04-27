@@ -7,7 +7,7 @@
 
 package √Ê ‘Ã‚.Algorithm;
 
-public class Q03ReverseList {
+public class Q003ReverseList {
 	
 	public static void main(String[] args) {
 		ListNode node1 = new ListNode(1);
@@ -58,13 +58,5 @@ public class Q03ReverseList {
 			l.next = l2;
 			return reverse2(temp, l);
 		}
-	}
-}
-
-class ListNode {
-	int val;
-	ListNode next;
-	public ListNode(int val) {
-		this.val = val;
 	}
 }
