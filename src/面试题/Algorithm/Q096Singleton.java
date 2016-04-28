@@ -7,13 +7,13 @@
 
 package 面试题.Algorithm;
 
-class Singleton {	//恶汉式
-	private static final Singleton singleton = new Singleton(); //在类加载的时候就创建了对象
+class Q096Singleton {	//恶汉式
+	private static final Q096Singleton singleton = new Q096Singleton(); //在类加载的时候就创建了对象
 
-	private Singleton() {
+	private Q096Singleton() {
 	}
 	
-	public static Singleton getInstance() {
+	public static Q096Singleton getInstance() {
 		return singleton;
 	}
 }
