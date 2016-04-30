@@ -14,6 +14,11 @@ public class Q086GetMinStack {
 	private Stack<Integer> stack;
 	private Stack<Integer> minStack;
 	
+	public Q086GetMinStack() {
+		stack = new Stack<>();
+		minStack = new Stack<>();
+	}
+	
 	public void push(int o) {
 		stack.push(o);
 		if(minStack.isEmpty() || o <= minStack.peek()) {//保证最小的元素在栈顶
@@ -25,7 +30,8 @@ public class Q086GetMinStack {
 		if(stack.isEmpty()) {
 			return false;
 		} else {
-			if(minStack.peek() == stack.peek()) {	//如果原始栈中的栈顶元素等于minStack的栈顶元素，则将该元素弹出
+			//如果原始栈中的栈顶元素等于minStack的栈顶元素，则将该元素弹出
+			if(minStack.peek().equals(stack.peek())) { //这里使用equals比较合适
 				minStack.pop();
 			}
 			stack.pop();
