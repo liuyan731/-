@@ -7,7 +7,7 @@
 
 package 面试题.Algorithm;
 
-public class PathIsExistInBinaryTree {
+public class Q078PathIsExistInBinaryTree {
 	public boolean isExisted(TreeNode node, int target) {
 		if(node == null && target == 0) {
 			return true;
@@ -15,6 +15,7 @@ public class PathIsExistInBinaryTree {
 			return false;
 		} else {
 			int newTarget = target - node.value;
+			//直接递归实现
 			return isExisted(node.left, newTarget) || isExisted(node.right, newTarget);
 		}
 	}
