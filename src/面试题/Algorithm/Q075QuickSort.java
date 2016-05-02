@@ -7,7 +7,7 @@
 
 package √Ê ‘Ã‚.Algorithm;
 
-public class QuickSort {
+public class Q075QuickSort {
 	public static void main(String[] args) {
 		int mat[] = { 2, 4, 6, 2, 3, 5, 6, 8 };
 		quickSort(mat, 0, mat.length - 1);

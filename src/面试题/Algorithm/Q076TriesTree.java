@@ -10,7 +10,7 @@ package 面试题.Algorithm;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TriesTree {
+public class Q076TriesTree {
 	class Node {
 		protected boolean isEnd;	// 是不是单词的结尾
 		protected int count;	//单词出现的频次
