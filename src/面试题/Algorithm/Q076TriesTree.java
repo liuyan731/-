@@ -40,7 +40,7 @@ public class Q076TriesTree {
 	public boolean find(String word) {
 		Node node = root;
 		for (int i = 0; i < word.length(); i++) {
-			if(node.children.containsKey(word.charAt(i))) {
+			if(!node.children.containsKey(word.charAt(i))) {
 				return false;
 			} else {
 				node = node.children.get(word.charAt(i));
