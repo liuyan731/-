@@ -7,7 +7,7 @@
 
 package √Ê ‘Ã‚.Algorithm;
 
-public class Q05QuanPaiLie {
+public class Q050QuanPaiLie {
 	public static void main(String[] args) {
 		int mat[] = {1,2,3,4};
 		getQuanpailie(mat, 0, mat.length - 1);

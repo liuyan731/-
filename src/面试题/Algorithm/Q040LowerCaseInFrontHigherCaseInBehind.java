@@ -8,7 +8,7 @@
 
 package √Ê ‘Ã‚.Algorithm;
 
-public class Q04LowerCaseInFrontHigherCaseInBehind {
+public class Q040LowerCaseInFrontHigherCaseInBehind {
 	public static void main(String[] args) {
 		String str = "ASasdasdASDFFXX";
 		char cs[] = str.toCharArray();
